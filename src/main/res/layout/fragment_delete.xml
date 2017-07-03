@@ -1,0 +1,148 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.golu.registrationunive.DeleteFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:src="@drawable/logo"
+        android:background="#30ab58" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:background="#30ab58"
+        android:text="Search by name [or] mobile"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#30ab58"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="T.Name"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/dname"
+            android:layout_weight="3"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="go"
+            android:id="@+id/dnamego"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="[OR]"
+        android:gravity="center"
+        android:background="#30ab58"
+        android:textColor="#FFFFFF"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#30ab58"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="T.Cell"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/dcell"
+            android:layout_weight="3"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="go"
+            android:id="@+id/dcellgo"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#30ab58"
+        android:layout_height="0dp"
+        android:layout_weight=".7"></LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#30ab58"
+        android:layout_height="0dp"
+        android:layout_weight=".7"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#30ab58"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="5">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:textSize="28sp"
+            android:id="@+id/dsname"
+            android:paddingLeft="7sp"
+
+            android:textStyle="normal|bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:id="@+id/demail"
+            android:textSize="24sp"
+            android:paddingLeft="7sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:id="@+id/dsmobile"
+            android:textSize="24sp"
+            android:paddingLeft="7sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:id="@+id/dsubject"
+            android:textSize="24sp"
+            android:paddingLeft="7sp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:id="@+id/ddelete"
+            android:text="delete"/>
+
+    </LinearLayout>
+
+</LinearLayout>
